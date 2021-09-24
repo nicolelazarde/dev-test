@@ -1,0 +1,26 @@
+.hero{width:100%;overflow:hidden;color:#fff;position:relative}
+.flex{display: flex;}
+.space-image{display: flex;width: 1440px;height: 960px;background-size: 1440px 960px;background-repeat: no-repeat;background-image: url(/images/final-frontier_large.jpg);background-position: left top;background-position: center;align-items: center;justify-content: center;}
+.space-copy{text-align: center;width:980px;max-width:100%;position:absolute;}
+.moon-image{ display: flex; width: 1440px; height: 960px; background-size: 1440px 960px; background-repeat: no-repeat; background-image:url(/images/luna_large.jpg); background-position: right top; background-position: center; align-items: center; justify-content: center;}
+.moon-copy{text-align: center;width:980px;max-width:100%;position:absolute;}
+@media only screen and (max-width:735px){.flex{display: flex;flex-wrap: wrap;} .space-image{width:735px;height:490px;background-size:735px 490px;background-repeat:no-repeat;background-image:url(/images/final-frontier_small.jpg)}.moon-image{width:735px;height:490px;background-size:735px 490px;background-repeat:no-repeat;background-image:url(/images/luna_small.jpg)}}
+@media only screen and (max-width:735px) and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:735px) and (min-resolution:1.5dppx),only screen and (max-width:735px) and (min-resolution:144dpi){ .space-image{background-image:url(/images/final-frontier_small_2x.jpg)} .moon-image{background-image:url(/images/luna_small_2x.jpg)}}
+
+.gallery-content{width: 100%;}
+.gallery-flex{display:flex;}
+.moon-33-left{width: 33%;height:33vw;max-height:789px}
+.moon-77-rigth{width: 77%;height:33vw;max-height:789px}
+.moon-77-left{width: 77%;height:33vw;max-height:789px}
+.moon-33-rigth{width: 33%;height:33vw;max-height:789px}
+.moon-50{width: 50%;height:33vw;max-height:789px}
+
+@media only screen and (max-width:736px){
+.gallery-flex{display:contents;}
+.moon-33-left{width: 100%;height:50vw;}
+.moon-77-rigth{width: 100%;height:50vw;}
+.moon-77-left{width: 100%;height:50vw;}
+.moon-33-rigth{width: 100%;height:50vw;}
+.moon-50{width: 100%;height:50vw;}
+}
+
